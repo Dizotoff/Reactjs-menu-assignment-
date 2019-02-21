@@ -1,0 +1,81 @@
+@font-face {
+	font-family: cool_font;
+	src: url('./../fonts/Pebble_W_Rg.woff2');
+}
+
+
+.toolbar {
+    font-family: 'cool_font';
+    font-size: x-large;
+    z-index: 0;
+    position:relative;
+    width: 100%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background:white;
+    height: 68px;
+    top: 0;
+    left: 0;
+    border: none;
+    
+  }
+  
+  .toolbar__navigation {
+    
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5rem;
+  }
+  
+  .toolbar__logo {
+    
+  }
+  
+  
+  .spacer {
+    flex:1;
+  }
+  .toggle-button__wrapper {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .toolbar__navigation-items {
+    
+  }
+  .toolbar__navigation-items ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  .toolbar__navigation-items li {
+    padding: 0.8rem;
+  }
+  
+  .toolbar__navigation-items a {
+    color:rgb(153,10,227);
+    text-decoration:none;
+  }
+  .toolbar__navigation-items img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.3rem;
+    filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
+  }
+  
+  .toolbar__navigation-items a:hover,
+  .toolbar__navigation-items a:active {
+    color: rgb(204,0,255);
+    
+  }
+  @media (max-width: 768px) {
+    .toolbar__navigation-items {
+      display: none;
+    }
+  }

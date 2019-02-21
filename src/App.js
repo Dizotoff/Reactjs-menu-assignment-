@@ -1,27 +1,44 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Backdrop from './components/Backdrop';
+import Drawer from './components/Drawer';
+import Toolbar from './components/Toolbar';
 
-class App extends Component {
+class App extends React.Component {
+  state = {
+      DrawerOpen: false
+  };
+ 
+  drawerToggleClickHandler = () => {
+      this.setState((prevState)=>{
+          return {DrawerOpen: !prevState.DrawerOpen};
+      });
+  };
+  
+  backdropClickHandler = () => {
+    this.setState({DrawerOpen:false})
+    console.log(this.state.DrawerOpen);
+    if(this.state.DrawerOpen) {
+    console.log("FIRE!");
+    }
+  }
+
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+      let backdrop;
+      if (this.state.DrawerOpen) {
+          backdrop = <Backdrop click={this.backdropClickHandler}/>
+      }
+      return (
+          <div style={{height: '100%'}}>
+          <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
+          <Drawer show={this.state.DrawerOpen}/>
+          {backdrop}
+          
+          <main style={{marginTop: '80px'}}>
+              <p>test</p>
+          </main>
+      </div>    
+      );
   }
 }
 

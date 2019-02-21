@@ -1,0 +1,165 @@
+@font-face {
+	font-family: cool_font2;
+	src: url('./../fonts/303D52_0_0.woff2');
+}
+
+.drawer{
+  border-top: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow-y: hidden; 
+  height:0%;
+  background: white;
+  top: 68px;
+  left: 0;
+  width: 100%;
+  z-index:1;
+  transition: height 0.3s ease-out;
+  
+}
+
+.drawer.open{
+  margin: 0;
+  height: 400px;
+}
+
+
+.drawer a {
+  font-family: 'cool_font2';
+  font-size: large;
+  text-decoration: none;
+}
+
+
+.upperDrawer{
+  
+    height: 100px;
+    background: rgba(242,242,242,0.94);
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  
+  
+  .upperDrawer ul {
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 0;
+    
+    
+  }
+  
+  .upperDrawer li {
+    margin-top: 1.5rem;
+    width:15rem;
+    height: 1.5rem;
+    flex-basis: auto;
+  }
+  
+  .upperDrawer a {
+    
+    margin-left: 0rem;
+    color: rgb(120, 120, 120);
+    
+  }
+  
+  .upperDrawer img {
+    position: relative;
+    top:5px;
+    padding-right: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .upperDrawer img:hover {
+    filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
+  }
+  
+  li.test img:hover,active li.test a{
+   color: black;
+  }
+  
+  
+  .search input {
+    font-size: large;
+    background: none;
+    position:relative;
+    height: 20px;
+    width: 385px;
+    border:none;
+    outline:none;
+  }
+  
+  .search {
+    padding-top:13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    
+  }
+  
+  .search img {
+    position: relative;
+    margin-right: 5px;
+    top:0px;
+  }
+
+
+  .lowerDrawer {
+
+  }
+  
+  .lowerDrawer ul {
+    
+    list-style: none;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin-bottom: 0%;
+    
+  }
+  
+  .lowerDrawer li {
+   
+    width:23rem;
+    height: 3rem;
+    margin-top: 3rem;
+  }
+  
+  .lowerDrawer img {
+    padding-right: 1rem;
+    width: 64px;
+    height: 64px;
+  }
+  
+  .lowerDrawer a {
+    position: relative;
+    bottom: 30px;
+    
+    color: black;
+  }
+  
+  
+  
+  @media (max-width: 1423px) {
+    .upperDrawer {
+      height: 175px;
+    }
+    .drawer.open{
+      height:475px;
+    }
+  
+    .search input {
+      width: 145px;
+    }
+  }
+  
+  
