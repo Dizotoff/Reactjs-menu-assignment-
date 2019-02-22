@@ -4,6 +4,16 @@
 }
 
 
+
+.toolbar__navigation-items li:hover a {
+  
+}
+.toolbar__navigation-items li:hover img {
+ 
+}
+
+
+
 .toolbar {
     font-family: 'cool_font';
     font-size: x-large;
@@ -68,15 +78,15 @@
     width: 1.5rem;
     height: 1.5rem;
     padding-right: 0.3rem;
-    filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
+    
   }
   
   .toolbar__navigation-items img:hover {
-    filter: invert(26%) sepia(99%) saturate(5851%) hue-rotate(281deg) brightness(99%) contrast(129%);
+    fill: red;
   }
   .toolbar__navigation-items a:hover,
   .toolbar__navigation-items a:active {
-    color: rgb(204,0,255);
+    
     
   }
   @media (max-width: 768px) {

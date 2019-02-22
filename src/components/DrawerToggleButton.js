@@ -17,7 +17,7 @@ const drawerToggleButttot = props =>  {
               <div className="toggle-button__line"></div>
               <div className="toggle-button__line"></div>
          </button>
-         <a onClick={props.click}>MENU</a>
+         <a href="#" onClick={props.click}>MENU</a>
          <div className={decorLine}></div>
         </div> 
       ) 

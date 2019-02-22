@@ -58,7 +58,7 @@
   
   .upperDrawer li {
     margin-top: 1.5rem;
-    width:17rem;
+    width:13rem;
     height: 1.5rem;
     flex-basis: auto;
   }
@@ -73,50 +73,20 @@
   .upperDrawer img {
     position: relative;
     top:5px;
-    padding-right: 30px;
+    padding-right: 20px;
     width: 1.5rem;
     height: 1.5rem;
   }
   
  
-
-  
-.test img:hover  .test a{
-   background: rgb(204,0,255);
-  }
-
-  li:hover img {
+  .upperDrawer li:hover img {
     filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
   }
-  li:hover a {
-    color: rgb(204,0,255);
-  }
   
   
-  .search input {
-    font-size: large;
-    background: none;
-    position:relative;
-    height: 20px;
-    width: 385px;
-    border:none;
-    outline:none;
-  }
   
-  .search {
-    padding-top:13px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 2rem;
-    
-  }
   
-  .search img {
-    position: relative;
-    margin-right: 5px;
-    top:0px;
-  }
+  
 
 
   .lowerDrawer {
@@ -133,7 +103,9 @@
     margin-bottom: 0%;
     
   }
-  
+  .lowerDrawer li:hover img {
+    filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
+  }
   .lowerDrawer li {
    
     width:23rem;
@@ -149,9 +121,6 @@
   
   .lowerDrawer a {
     position: relative;
-    bottom: 30px;
-    
-    color: black;
   }
   
   
@@ -162,10 +131,6 @@
     }
     .drawer.open{
       height:475px;
-    }
-  
-    .search input {
-      width: 145px;
     }
   }
   

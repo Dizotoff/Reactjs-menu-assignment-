@@ -12,8 +12,8 @@ const toolbar = props =>  {
             <div className="toolbar__navigation-items">
                 <ul>
                     <li><DrawerToggleButtton click={props.drawerClickHandler} check={props.open} /></li>
-                    <li><img src={pin}  alt="login icon"/><a href="/">LOGIN</a></li>
-                    <li><img src={pin} alt="buy icon"/></li>
+                    <li><a href="/"><img src={pin}  alt="menu icon"/></a><a href="/">LOGIN</a></li>
+                    <li><a href="/"><img src={pin}  alt="menu icon"/></a></li>
                 </ul>
             </div>
         </nav>
