@@ -6,37 +6,29 @@ import Toolbar from './components/Toolbar';
 
 class App extends React.Component {
   state = {
-      DrawerOpen: false
+      drawerOpen: false
   };
  
   drawerToggleClickHandler = () => {
       this.setState((prevState)=>{
-          return {DrawerOpen: !prevState.DrawerOpen};
+          return {drawerOpen: !prevState.drawerOpen};
       });
   };
   
   backdropClickHandler = () => {
-    this.setState({DrawerOpen:false})
-    console.log(this.state.DrawerOpen);
-    if(this.state.DrawerOpen) {
-    console.log("FIRE!");
-    }
+    this.setState({drawerOpen:false})
   }
 
   render() {
       let backdrop;
-      if (this.state.DrawerOpen) {
+      if (this.state.drawerOpen) {
           backdrop = <Backdrop click={this.backdropClickHandler}/>
       }
       return (
           <div style={{height: '100%'}}>
-          <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-          <Drawer show={this.state.DrawerOpen}/>
+          <Toolbar drawerClickHandler={this.drawerToggleClickHandler} open={this.state.drawerOpen}/>
+          <Drawer show={this.state.drawerOpen}/>
           {backdrop}
-          
-          <main style={{marginTop: '80px'}}>
-              <p>test</p>
-          </main>
       </div>    
       );
   }

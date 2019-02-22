@@ -5,6 +5,7 @@
 
 .drawer{
   border-top: 1px solid lightgrey;
+  box-shadow: 0 4px 2px -2px gray;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -15,7 +16,7 @@
   left: 0;
   width: 100%;
   z-index:1;
-  transition: height 0.3s ease-out;
+  transition: height 0.2s ease-out;
   
 }
 
@@ -33,7 +34,7 @@
 
 
 .upperDrawer{
-  
+    
     height: 100px;
     background: rgba(242,242,242,0.94);
     border-bottom: 1px solid lightgrey;
@@ -57,7 +58,7 @@
   
   .upperDrawer li {
     margin-top: 1.5rem;
-    width:15rem;
+    width:17rem;
     height: 1.5rem;
     flex-basis: auto;
   }
@@ -77,12 +78,18 @@
     height: 1.5rem;
   }
   
-  .upperDrawer img:hover {
+ 
+
+  
+.test img:hover  .test a{
+   background: rgb(204,0,255);
+  }
+
+  li:hover img {
     filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
   }
-  
-  li.test img:hover,active li.test a{
-   color: black;
+  li:hover a {
+    color: rgb(204,0,255);
   }
   
   
@@ -113,7 +120,7 @@
 
 
   .lowerDrawer {
-
+    
   }
   
   .lowerDrawer ul {

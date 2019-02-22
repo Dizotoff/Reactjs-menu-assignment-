@@ -2,6 +2,7 @@
     background: transparent;
   }
   .toggle-button {
+    
     margin-top: 0.25rem;
     margin-right: 1rem; 
     display:flex;
@@ -15,16 +16,36 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .toggle-button.open {
+    transform: rotate(90deg);
+    transition-duration:0.5s;
+  }
+
   
   .toggle-button:focus{
     outline:none;
     
+  }
+
+  .decor-line {
+    position: absolute;
+    top:65px;
+    margin-left: 0px;
+    width: 115px;
+    height: 4px;
+    background: rgb(153,10,227);
+  }
+
+  .decor-line.active {
+    visibility: hidden;
   }
   
   .toggle-button__line{
     width: 30px;
     height: 4px;
     background: rgb(153,10,227);
-    
   }
+
+  
   

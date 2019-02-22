@@ -63,12 +63,17 @@
     text-decoration:none;
   }
   .toolbar__navigation-items img {
+    position: relative;
+    top: 4px;
     width: 1.5rem;
     height: 1.5rem;
     padding-right: 0.3rem;
     filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
   }
   
+  .toolbar__navigation-items img:hover {
+    filter: invert(26%) sepia(99%) saturate(5851%) hue-rotate(281deg) brightness(99%) contrast(129%);
+  }
   .toolbar__navigation-items a:hover,
   .toolbar__navigation-items a:active {
     color: rgb(204,0,255);

@@ -13,12 +13,12 @@ const drawer = props => {
             <nav className={drawerClases}>
                <section className={"upperDrawer"}>
                   <ul>  
-                      <li className="test"><img src={pin}  alt="menu icon"/><a href="/">Etsi kauppa</a></li>
+                      <li><div className="test"><img src={pin}  alt="menu icon"/><a href="/">Etsi kauppa</a></div></li>
                       <li><img src={pin} alt="menu icon"/><a href="/">Etsi ohjeita</a></li>
                       <li><img src={pin} alt="menu icon"/><a href="/">Kysy Yhteisöltä</a></li>
                       <li><img src={pin} alt="menu icon"/><a href="/">Ota yhteyttä</a></li>
                   </ul>
-                  <div className="search"><form><img src={pin} alt="search icon"/><input type="text" placeholder="Etsi..." /><img src={pin} alt="exit search icon"/></form></div>
+                  <div className="search"><img src={pin} alt="search icon"/><input type="text" placeholder="Etsi..." /><img src={pin} alt="exit search icon"/></div>
                </section>
                <section className={"lowerDrawer"}>
                   <ul>  
@@ -39,3 +39,8 @@ const drawer = props => {
         )
     }
 export default drawer;
+
+
+/*.upperDrawer img:hover {
+    filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
+  } */
