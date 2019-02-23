@@ -48,4 +48,11 @@
   }
 
   
-  
+  @media (max-width: 768px) {
+    .decor-line {
+      display: none;
+    }
+    .toggle-button__wrapper a {
+      display: none;
+    }
+  }

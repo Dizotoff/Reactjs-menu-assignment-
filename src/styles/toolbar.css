@@ -80,6 +80,10 @@
     padding-right: 0.3rem;
     
   }
+
+  .toolbar__mobile {
+    display: none; 
+  }
   
   .toolbar__navigation-items img:hover {
     fill: red;
@@ -90,7 +94,25 @@
     
   }
   @media (max-width: 768px) {
-    .toolbar__navigation-items {
+    .toolbar__navigation-items li{
       display: none;
+    }
+    .toolbar__mobile {
+      display: flex;
+      flex-wrap: row;
+      justify-content: space-between;
+    }
+
+    .toolbar__mobile img {
+    position: relative;
+    top: 4px;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.3rem;
+    }
+
+    .toolbar__navigation {
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
