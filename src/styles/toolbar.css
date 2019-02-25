@@ -6,10 +6,11 @@
 
 
 .toolbar__navigation-items li:hover a {
+  color:rgb(204,0,255);
   
 }
 .toolbar__navigation-items li:hover img {
- 
+  filter: invert(27%) sepia(89%) saturate(7237%) hue-rotate(282deg) brightness(102%) contrast(127%);
 }
 
 
@@ -78,7 +79,7 @@
     width: 1.5rem;
     height: 1.5rem;
     padding-right: 0.3rem;
-    
+    filter: invert(25%) sepia(91%) saturate(7482%) hue-rotate(279deg) brightness(90%) contrast(111%);
   }
 
   .toolbar__mobile {
@@ -104,12 +105,18 @@
     }
 
     .toolbar__mobile img {
+    filter: invert(25%) sepia(91%) saturate(7482%) hue-rotate(279deg) brightness(90%) contrast(111%);
     position: relative;
     top: 4px;
     width: 1.5rem;
     height: 1.5rem;
     padding-right: 0.3rem;
     }
+    
+    .toolbar__mobile a:hover img {
+      filter: invert(27%) sepia(89%) saturate(7237%) hue-rotate(282deg) brightness(102%) contrast(127%);
+    }
+    
 
     .toolbar__navigation {
       padding-left: 20px;

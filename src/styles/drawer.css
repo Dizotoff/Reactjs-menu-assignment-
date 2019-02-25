@@ -47,6 +47,7 @@
   
   
   .upperDrawer ul {
+    padding-left: 80px;
     justify-content: space-between;
     list-style: none;
     display: flex;
@@ -83,7 +84,9 @@
     filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
   }
   
-  
+  .upperDrawer li:hover a {
+    color:rgb(153,10,227);
+  }
   
   
   
@@ -94,7 +97,7 @@
   }
   
   .lowerDrawer ul {
-    
+    padding-left: 80px;
     list-style: none;
     margin: 0 0 0 0;
     display: flex;
@@ -106,6 +109,12 @@
   .lowerDrawer li:hover img {
     filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
   }
+  .lowerDrawer a {
+    color:black;
+  }
+  .lowerDrawer li:hover a {
+    color:rgb(153,10,227);
+  }
   .lowerDrawer li {
 
     width:23rem;
@@ -114,6 +123,8 @@
   }
   
   .lowerDrawer img {
+    position: relative;
+    top: 25px;
     padding-right: 1rem;
     width: 64px;
     height: 64px;
@@ -121,11 +132,12 @@
   
   .lowerDrawer a {
     position: relative;
+    
   }
   
   
   
-  @media (max-width: 1423px) {
+  @media (max-width: 1154px) {
     .upperDrawer {
       height: 175px;
     }

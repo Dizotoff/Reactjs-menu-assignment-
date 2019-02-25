@@ -2,9 +2,10 @@
     background: transparent;
   }
   .toggle-button {
-    
+    transform: rotate(0deg);
+    transition-duration:0.5s;
     margin-top: 0.25rem;
-    margin-right: 1rem; 
+    margin-right: 0.5rem; 
     display:flex;
     flex-direction: column;
     justify-content: space-between; 
@@ -17,8 +18,10 @@
     box-sizing: border-box;
   }
 
+  
+
   .toggle-button.open {
-    transform: rotate(90deg);
+    transform: rotate(-180deg);
     transition-duration:0.5s;
   }
 
@@ -46,7 +49,13 @@
     height: 4px;
     background: rgb(153,10,227);
   }
+ 
 
+
+
+  .toggle-button__wrapper:hover .toggle-button__line {
+    background: rgb(204,0,255);
+  }
   
   @media (max-width: 768px) {
     .decor-line {

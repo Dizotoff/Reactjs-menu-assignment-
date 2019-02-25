@@ -1,6 +1,7 @@
 import React from 'react';
 import './../styles/toolbar.css';
-import pin from './../img/pin.svg';
+import basketIcon from './../img/icons/shopping-cart.svg';
+import userIcon from './../img/icons/user-silhouette.svg'
 import logo from './../img/logo.svg';
 import DrawerToggleButtton from './DrawerToggleButton.js';
 const toolbar = props =>  {
@@ -11,14 +12,14 @@ const toolbar = props =>  {
             <div className="spacer"/>
             <div className="toolbar__mobile">
                 <DrawerToggleButtton click={props.drawerClickHandler} check={props.open}/> 
-                <a href="/"><img src={pin}  alt="menu icon"/></a> 
-                <a href="/"><img src={pin}  alt="menu icon"/></a>
+                <a href="/"><img src={userIcon}  alt="menu icon"/></a> 
+                <a href="/"><img src={basketIcon}  alt="menu icon"/></a>
             </div>
             <div className="toolbar__navigation-items">
                 <ul>
                     <li><DrawerToggleButtton click={props.drawerClickHandler} check={props.open} /></li>
-                    <li><a href="/"><img src={pin}  alt="menu icon"/></a><a className="toolbar-login"href="/">LOGIN</a></li>
-                    <li><a href="/"><img src={pin}  alt="menu icon"/></a></li>
+                    <li><a href="/"><img src={userIcon}  alt="menu icon"/></a><a className="toolbar-login"href="/">LOGIN</a></li>
+                    <li><a href="/"><img src={basketIcon} alt="menu icon"/></a></li>
                 </ul>
             </div>
         </nav>

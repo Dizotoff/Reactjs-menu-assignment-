@@ -1,6 +1,8 @@
 import React from 'react';
 import './../styles/searchBar.css'
-import pin from './../img/icons/pin.svg'
+
+import cross from './../img/icons/cross-symbol.svg';
+import search from './../img/icons/musica-searcher.svg';
 class searchBar extends React.Component {
     state = {
         searchActive: false
@@ -28,7 +30,7 @@ class searchBar extends React.Component {
     return (
         <div>
         <div className={searchLineClass}></div>
-        <div className={searchClass}><a href="#" onClick={this.search}><img src={pin}  alt="menu icon"/></a><input type="text" onClick = {this.searchBarOn} placeholder="Etsi..." /><img src={pin} onClick = {this.searchBarOff} alt="exit search icon"/></div>
+        <div className={searchClass}><a href="#" onClick={this.search}><img src={search}  alt="menu icon"/></a><input type="text" onClick = {this.searchBarOn} placeholder="Etsi..." /><img src={cross} onClick = {this.searchBarOff} alt="exit search icon"/></div>
         </div>
     );
 }
