@@ -1,8 +1,8 @@
 
-## Telia's test assigment
+## Telia's test assignment
 
+Available [here](https://dizotoff.github.io/Reactjs-menu-assignment-/index.html).<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Available [here](https://dizotoff.github.io/Reactjs-menu-assignment-/index.html).
 
 #### npm start
 
