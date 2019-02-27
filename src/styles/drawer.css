@@ -2,6 +2,13 @@
 	font-family: cool_font2;
 	src: url('./../fonts/303D52_0_0.woff2');
 }
+ 
+span{
+  color: rgb(120, 120, 120);
+  font-size: small;
+  position: absolute;
+  margin-left: 80px;
+} 
 
 .drawer{
   border-top: 1px solid lightgrey;
@@ -27,6 +34,7 @@
 
 
 .drawer a {
+  
   font-family: 'cool_font2';
   font-size: large;
   text-decoration: none;
@@ -89,7 +97,9 @@
   }
   
   
-  
+  .noFilter:hover img{
+    filter: none ;
+  }
 
 
   .lowerDrawer {
@@ -165,6 +175,10 @@
       
    }
 
+   .upperDrawer a {
+    color: black;
+  }
+
    .upperDrawer li {
      
      border-top: 1px solid lightgrey;
@@ -205,6 +219,12 @@
     width: 32px;
     height: 32px;
   }
+  span{
+    position: relative;
+    margin-left: 48px;
+    bottom: 8px;
+  } 
+
    }
   
   

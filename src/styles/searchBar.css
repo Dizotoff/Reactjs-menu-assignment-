@@ -8,8 +8,8 @@
     outline:none;
   }
 
-  .searchLine{
-    
+  .search:hover .lupa {
+    filter: invert(11%) sepia(98%) saturate(5510%) hue-rotate(281deg) brightness(100%) contrast(104%);
   }
 
   .searchLine.active {
@@ -32,10 +32,19 @@
   
   .search img {
     position: relative;
+    width: 20px;
+    height: 20px;
     margin-right: 5px;
     top:0px;
   }
 
+  .cross {
+    filter: invert(92%) sepia(0%) saturate(912%) hue-rotate(244deg) brightness(79%) contrast(114%);
+  }
+
+  .cross:hover {
+    filter: invert(0%) sepia(0%) saturate(3%) hue-rotate(250deg) brightness(101%) contrast(103%);
+  }
   @media (max-width: 1423px) {
     .search input {
         width: 145px;
@@ -59,8 +68,10 @@
       width: 100%;
     }
     .search img {
+      width: 20px;
+    height: 20px;
       padding-left: 0px;
-      margin-left: 15px;
+      margin-left: 22px;
     }
     .searchLine{
       display:none;

@@ -18,7 +18,16 @@
     box-sizing: border-box;
   }
 
+
+  .close {
+    position:absolute;
+    display:none;
+  }
   
+  .close.active {
+    position: absolute;
+    display: flex;
+  }
 
   .toggle-button.open {
     transform: rotate(-180deg);

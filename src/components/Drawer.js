@@ -2,7 +2,7 @@ import React from 'react';
 import './../styles/drawer.css';
 import SearchBar from './../components/SearchBar';
 
-import liga from './../img/liiga-logo_128x128.png';
+import liga from './../img/icons/cup.svg';
 import pin from './../img/pin.svg';
 import chat from './../img/icons/chat.svg';
 import community from './../img/icons/team.svg';
@@ -37,13 +37,13 @@ const drawer = props => {
                       <li><a href="/"><img src={smartphones}  alt="menu icon"/></a><a href="/">Laitteet</a></li>
                       <li><a href="/"><img src={simcard}  alt="menu icon"/></a><a href="/">Liittymät</a></li>
                       <li><a href="/"><img src={band}  alt="menu icon"/></a><a href="/">Laajakaistat</a></li>
-                      <li><a href="/"><img src={dot}  alt="menu icon"/></a><a href="/">Dot</a></li>
+                      <li><a href="/"><img src={dot} alt="menu icon"/></a><a href="/">Dot</a><br></br><span> Laite piste perinteisille liittymille.</span></li>
                   </ul>
                   <ul>
                       <li><a href="/"><img src={tv}  alt="menu icon"/></a><a href="/">TV ja viihde</a></li>
                       <li><a href="/"><img src={dots}  alt="menu icon"/></a><a href="/">Palvelut</a></li>
                       <li><a href="/"><img src={bag}  alt="menu icon"/></a><a href="/">Tarjoukset</a></li>
-                      <li><a href="/"><img src={liga}  alt="menu icon"/></a><a href="/">Liiga</a></li>
+                      <li><a href="/"><img src={liga}  alt="menu icon"/></a><a href="/">Liiga</a><br></br><span> Telia on Liigan uusi koti.</span></li>
                   </ul>
                </section>
             </nav>

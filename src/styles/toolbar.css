@@ -13,6 +13,16 @@
   filter: invert(27%) sepia(89%) saturate(7237%) hue-rotate(282deg) brightness(102%) contrast(127%);
 }
 
+.close {
+  position:absolute;
+  display:none;
+}
+
+.close.active {
+  position: absolute;
+  display: flex;
+}
+
 
 
 .toolbar {
