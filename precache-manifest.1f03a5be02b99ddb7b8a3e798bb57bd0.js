@@ -4,16 +4,20 @@ self.__precacheManifest = [
     "url": "/Reactjs-menu-assignment-/static/media/team.c83e6197.svg"
   },
   {
-    "revision": "8c1029fcb2ba087ef48d",
-    "url": "/Reactjs-menu-assignment-/static/css/main.ee37fa40.chunk.css"
+    "revision": "2edfb884ab518bcaaa23",
+    "url": "/Reactjs-menu-assignment-/static/css/main.c30f13a0.chunk.css"
   },
   {
     "revision": "a333c7a87cc51a1f02db",
     "url": "/Reactjs-menu-assignment-/static/js/runtime~main.a333c7a8.js"
   },
   {
-    "revision": "58b350bde1fba71176eb",
-    "url": "/Reactjs-menu-assignment-/static/js/2.58b350bd.chunk.js"
+    "revision": "a8046bc524528e5563ef",
+    "url": "/Reactjs-menu-assignment-/static/js/2.a8046bc5.chunk.js"
+  },
+  {
+    "revision": "c34e77c726c40fb58c4e8351fc66ed34",
+    "url": "/Reactjs-menu-assignment-/static/media/cross-symbol.c34e77c7.svg"
   },
   {
     "revision": "de41ed2c8be8c8a59dc68809cf92d25e",
@@ -24,16 +28,12 @@ self.__precacheManifest = [
     "url": "/Reactjs-menu-assignment-/static/media/user-silhouette.56902ef6.svg"
   },
   {
-    "revision": "bb93e3a2bf87cd2035f1215f4bea8aa3",
-    "url": "/Reactjs-menu-assignment-/static/media/cross-symbol.bb93e3a2.svg"
-  },
-  {
     "revision": "8df8445051631f0638250163756bd171",
     "url": "/Reactjs-menu-assignment-/static/media/musica-searcher.8df84450.svg"
   },
   {
-    "revision": "c980b8c56952cfab92c21340ee6e7e31",
-    "url": "/Reactjs-menu-assignment-/static/media/liiga-logo_128x128.c980b8c5.png"
+    "revision": "7abb7dc85900a4fb647e20aa44d79963",
+    "url": "/Reactjs-menu-assignment-/static/media/cup.7abb7dc8.svg"
   },
   {
     "revision": "5b316389a9bde74262f76de12e3203c0",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/Reactjs-menu-assignment-/static/media/chat.e22430b9.svg"
   },
   {
-    "revision": "8c1029fcb2ba087ef48d",
-    "url": "/Reactjs-menu-assignment-/static/js/main.8c1029fc.chunk.js"
+    "revision": "2edfb884ab518bcaaa23",
+    "url": "/Reactjs-menu-assignment-/static/js/main.2edfb884.chunk.js"
   },
   {
     "revision": "d5d7383aa999881f3cb98372b597dd20",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/Reactjs-menu-assignment-/static/media/big-and-small-dots.e16aca56.svg"
   },
   {
-    "revision": "0e2b708f029bba378c29080d2c881da5",
-    "url": "/Reactjs-menu-assignment-/static/media/monitor.0e2b708f.svg"
+    "revision": "5d65bfaa79ce7e6a4a2f5d0d5d60da54",
+    "url": "/Reactjs-menu-assignment-/static/media/monitor.5d65bfaa.svg"
   },
   {
     "revision": "b24534a93c9e359eca921ff8068770b2",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/Reactjs-menu-assignment-/static/media/Pebble_W_Rg.f5863c6a.woff2"
   },
   {
-    "revision": "af1da8ba345beaa35261f6e1f20ea74b",
+    "revision": "350514fd19ff05009c094d5cf3b67f6d",
     "url": "/Reactjs-menu-assignment-/index.html"
   }
 ];
