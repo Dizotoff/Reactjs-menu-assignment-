@@ -8,13 +8,13 @@ class App extends React.Component {
   state = {
       drawerOpen: false
   };
- 
+ // event listener for toggle button 
   drawerToggleClickHandler = () => {
       this.setState((prevState)=>{
           return {drawerOpen: !prevState.drawerOpen};
       });
   };
-  
+  // event listener for backdrop click
   backdropClickHandler = () => {
     this.setState({drawerOpen:false})
   }
@@ -25,7 +25,7 @@ class App extends React.Component {
           backdrop = <Backdrop click={this.backdropClickHandler}/>
       }
       return (
-          <div style={{height: '100%'}}>
+          <div>
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} open={this.state.drawerOpen}/>
           <Drawer show={this.state.drawerOpen}/>
           {backdrop}

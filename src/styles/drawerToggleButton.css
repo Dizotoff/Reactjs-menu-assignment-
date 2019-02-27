@@ -1,76 +1,72 @@
 .menu-button {
-    background: transparent;
-  }
-  .toggle-button {
-    transform: rotate(0deg);
-    transition-duration:0.5s;
-    margin-top: 0.25rem;
-    margin-right: 0.5rem; 
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    height:24px;
-    width: 30px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  background: transparent;
+}
+.toggle-button {
+  transform: rotate(0deg);
+  transition-duration:0.5s;
+  margin-top: 0.25rem;
+  margin-right: 0.5rem; 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height:24px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
-  .close {
-    position:absolute;
-    display:none;
-  }
+.close {
+  position:absolute;
+  display:none;
+}
   
-  .close.active {
-    position: absolute;
-    display: flex;
-  }
+.close.active {
+  position: absolute;
+  display: flex;
+}
 
-  .toggle-button.open {
-    transform: rotate(-180deg);
-    transition-duration:0.5s;
-  }
+.toggle-button.open {
+  transform: rotate(-180deg);
+  transition-duration:0.5s;
+}
 
   
-  .toggle-button:focus{
-    outline:none;
-    
-  }
+.toggle-button:focus{
+  outline:none;  
+}
 
-  .decor-line {
-    position: absolute;
-    top:65px;
-    margin-left: 0px;
-    width: 115px;
-    height: 4px;
-    background: rgb(153,10,227);
-  }
+.decor-line {
+  position: absolute;
+  top:65px;
+  margin-left: 0px;
+  width: 115px;
+  height: 4px;
+  background: rgb(153,10,227);
+}
 
-  .decor-line.active {
-    visibility: hidden;
-  }
+.decor-line.active {
+  visibility: hidden;
+}
   
-  .toggle-button__line{
-    width: 30px;
-    height: 4px;
-    background: rgb(153,10,227);
-  }
+.toggle-button__line{
+  width: 30px;
+  height: 4px;
+  background: rgb(153,10,227);
+}
  
-
-
-
-  .toggle-button__wrapper:hover .toggle-button__line {
-    background: rgb(204,0,255);
-  }
+.toggle-button__wrapper:hover .toggle-button__line {
+  background: rgb(204,0,255);
+}
   
-  @media (max-width: 768px) {
-    .decor-line {
-      display: none;
-    }
-    .toggle-button__wrapper a {
-      display: none;
-    }
+@media (max-width: 768px) {
+  .decor-line {
+    display: none;
   }
+  .toggle-button__wrapper a {
+    display: none;
+  }
+}

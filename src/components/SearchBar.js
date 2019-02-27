@@ -19,11 +19,11 @@ class searchBar extends React.Component {
     }
 
     search = () => {
-        //check that text is ok and post request here 
+        //check that text incoming and post request here 
     }
 
     render () {
-        //if active change the class name of divs to affect their css parameters
+        //if search active change the class name of divs to affect their css parameters
         let searchClass = ['search'];
         let searchLineClass = ['searchLine'];
         if (this.state.searchActive) {

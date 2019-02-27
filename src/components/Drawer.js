@@ -14,13 +14,13 @@ import simcard from './../img/icons/simcard.svg';
 import bag from './../img/icons/shopping-bag.svg';
 import dots from './../img/icons/big-and-small-dots.svg';
 import tv from './../img/icons/monitor.svg';
+
 const drawer = props => {
       let drawerClases = ['drawer'];
       if (props.show) {
         drawerClases = ['drawer open'];
       }
         return (
-          
           <div>
             <nav className={drawerClases}>
                <section className={"upperDrawer"}>
@@ -50,5 +50,6 @@ const drawer = props => {
           </div>
         )
     }
+    
 export default drawer;
 
