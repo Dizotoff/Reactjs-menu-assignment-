@@ -81,10 +81,7 @@
 .toolbar__mobile {
   display: none; 
 }
-  
-.toolbar__navigation-items img:hover {
-  fill: red;
-}
+
   
 @media (max-width: 784px) {
   .toolbar__navigation-items li{

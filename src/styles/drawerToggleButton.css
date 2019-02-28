@@ -62,7 +62,7 @@
   background: rgb(204,0,255);
 }
   
-@media (max-width: 768px) {
+@media (max-width: 784px) {
   .decor-line {
     display: none;
   }
