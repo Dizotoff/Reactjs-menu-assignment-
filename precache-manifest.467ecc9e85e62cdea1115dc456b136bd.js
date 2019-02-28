@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Reactjs-menu-assignment-/static/media/team.c83e6197.svg"
   },
   {
-    "revision": "2edfb884ab518bcaaa23",
-    "url": "/Reactjs-menu-assignment-/static/css/main.c30f13a0.chunk.css"
+    "revision": "2232bf3b07e3df4ce449",
+    "url": "/Reactjs-menu-assignment-/static/css/main.7693aebe.chunk.css"
   },
   {
     "revision": "a333c7a87cc51a1f02db",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/Reactjs-menu-assignment-/static/media/chat.e22430b9.svg"
   },
   {
-    "revision": "2edfb884ab518bcaaa23",
-    "url": "/Reactjs-menu-assignment-/static/js/main.2edfb884.chunk.js"
+    "revision": "2232bf3b07e3df4ce449",
+    "url": "/Reactjs-menu-assignment-/static/js/main.2232bf3b.chunk.js"
   },
   {
     "revision": "d5d7383aa999881f3cb98372b597dd20",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/Reactjs-menu-assignment-/static/media/Pebble_W_Rg.f5863c6a.woff2"
   },
   {
-    "revision": "350514fd19ff05009c094d5cf3b67f6d",
+    "revision": "df2871aaf17f1274ad5164979fe111f4",
     "url": "/Reactjs-menu-assignment-/index.html"
   }
 ];
