@@ -86,7 +86,7 @@
   fill: red;
 }
   
-@media (max-width: 768px) {
+@media (max-width: 784px) {
   .toolbar__navigation-items li{
     display: none;
   }

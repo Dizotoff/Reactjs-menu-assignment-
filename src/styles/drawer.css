@@ -133,7 +133,7 @@ span{
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 784px) {
   .upperDrawer {
     flex-direction: column-reverse;
     margin-top: 25px;
