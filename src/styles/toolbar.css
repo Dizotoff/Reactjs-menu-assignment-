@@ -1,5 +1,5 @@
 @font-face {
-	font-family: cool_font;
+	font-family: pebble;
 	src: url('./../fonts/Pebble_W_Rg.woff2');
 }
 
@@ -22,7 +22,7 @@
 }
 
 .toolbar {
-  font-family: 'cool_font';
+  font-family: 'pebble';
   font-size: x-large;
   z-index: 0;
   position:relative;

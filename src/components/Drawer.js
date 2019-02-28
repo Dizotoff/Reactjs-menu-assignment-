@@ -25,25 +25,25 @@ const drawer = props => {
             <nav className={drawerClases}>
                <section className={"upperDrawer"}>
                   <ul>  
-                      <li><a href="/"><img src={pin}  alt="menu icon"/></a><a href="/">Etsi kauppa</a></li>
-                      <li><a href="/"><img src={question}  alt="menu icon"/></a><a href="/">Etsi ohjeita</a></li>
-                      <li><a href="/"><img src={community}  alt="menu icon"/></a><a href="/">Kysy Yhteisöltä</a></li>
-                      <li><a href="/"><img src={chat}  alt="menu icon"/></a><a href="/">Ota yhteyttä</a></li>
+                      <li><a href="/"><img src={pin}  alt="pin"/></a><a href="/">Etsi kauppa</a></li>
+                      <li><a href="/"><img src={question}  alt="question mark"/></a><a href="/">Etsi ohjeita</a></li>
+                      <li><a href="/"><img src={community}  alt="group of people"/></a><a href="/">Kysy Yhteisöltä</a></li>
+                      <li><a href="/"><img src={chat}  alt="chatting"/></a><a href="/">Ota yhteyttä</a></li>
                   </ul>
                   <SearchBar/>
                </section>
                <section className={"lowerDrawer"}>
                   <ul>  
-                      <li><a href="/"><img src={smartphones}  alt="menu icon"/></a><a href="/">Laitteet</a></li>
-                      <li><a href="/"><img src={simcard}  alt="menu icon"/></a><a href="/">Liittymät</a></li>
-                      <li><a href="/"><img src={band}  alt="menu icon"/></a><a href="/">Laajakaistat</a></li>
-                      <li><a href="/"><img src={dot} alt="menu icon"/></a><a href="/">Dot</a><br></br><span> Laite piste perinteisille liittymille.</span></li>
+                      <li><a href="/"><img src={smartphones}  alt="two mobile phone"/></a><a href="/">Laitteet</a></li>
+                      <li><a href="/"><img src={simcard}  alt="simcard"/></a><a href="/">Liittymät</a></li>
+                      <li><a href="/"><img src={band}  alt="wifi signal"/></a><a href="/">Laajakaistat</a></li>
+                      <li><a href="/"><img src={dot} alt="pink dot"/></a><a href="/">Dot</a><br></br><span> Laite piste perinteisille liittymille.</span></li>
                   </ul>
                   <ul>
-                      <li><a href="/"><img src={tv}  alt="menu icon"/></a><a href="/">TV ja viihde</a></li>
-                      <li><a href="/"><img src={dots}  alt="menu icon"/></a><a href="/">Palvelut</a></li>
-                      <li><a href="/"><img src={bag}  alt="menu icon"/></a><a href="/">Tarjoukset</a></li>
-                      <li><a href="/"><img src={liga}  alt="menu icon"/></a><a href="/">Liiga</a><br></br><span> Telia on Liigan uusi koti.</span></li>
+                      <li><a href="/"><img src={tv}  alt="tv screen and remote"/></a><a href="/">TV ja viihde</a></li>
+                      <li><a href="/"><img src={dots}  alt="dots"/></a><a href="/">Palvelut</a></li>
+                      <li><a href="/"><img src={bag}  alt="shopping bag"/></a><a href="/">Tarjoukset</a></li>
+                      <li><a href="/"><img src={liga}  alt="winner trophy"/></a><a href="/">Liiga</a><br></br><span> Telia on Liigan uusi koti.</span></li>
                   </ul>
                </section>
             </nav>
